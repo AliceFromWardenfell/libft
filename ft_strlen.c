@@ -6,7 +6,7 @@
 /*   By: alisa <alisa@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/08 13:17:20 by cvrone            #+#    #+#             */
-/*   Updated: 2021/07/06 22:34:03 by alisa            ###   ########.fr       */
+/*   Updated: 2021/07/30 18:11:56 by alisa            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ size_t	ft_strlen(const char *str)
 {
 	size_t	len;
 
-	if (!str)
-		return (0);
 	len = 0;
 	while (str[len] != '\0')
 		len++;
